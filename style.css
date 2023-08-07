@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+ /* ========================== navbar ============================ */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 72px;
+    border-bottom: 1px solid black;
+}
+
+.navbar a>i {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.navbar a>p {
+    font-size: 0.85rem;
+    color: #1c1d1f;
+}
+
+.search {
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 46px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.search i {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.search input {
+    outline: none;
+    height: 34px;
+    width: 400px;
+    border: none;
+    font-size: 1.1rem;
+
+}
+
+.profile{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a :hover {
+    color: blue;
+}
+
+/* ===============================pannel==================================== */
+
+.pannel {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.pannel a {
+    text-decoration: none;
+}
+
+.pannel a p {
+    margin-right: 30px;
+    color: #1c1d1f;
+    font-size: 0.85rem;
+}
+
+/* ================================hero-section================================= */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* ===============================main-section================================== */
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.box {
+    width: 400px;
+    height: 150px;
+    border: 0.5px solid #1c1d1f;
+}
+
+.name {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 500px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hh1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 150px;
+}
+
+.hh3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    border:0.2px solid #1c1d1f;
+    height: 300px;
+    width: 80%;
+}
+
+/* ====================================courses====================================== */
+
+.course1 {
+    width: 221px;
+    height: 276px;
+    
+}
+
+.bold-large {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.light-small {
+    font-size: 0.75rem;
+    font-weight: 100;
+}
+
+.stars {
+    display: flex;
+}
+
+.stars p {
+    color: orange;
+    font-size: 1rem;
+}
+
+.stars i {
+    color: orange;
+    font-size: 0.70rem;
+}
+
+.rupees1 {
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.rupees2 {
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 276px;
+    margin-left: 85px;
+}
+
+/* =============================table-grid============================= */
+
+.table-grid-heading {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.table-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.table-grid p {
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid black;
+    height: 56px;
+    width: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================================footer==================================== */
+
+.footer1 {
+    display: flex;
+    background-color: #1c1d1f;
+    height: 86px;
+    align-items: center;
+    border-bottom: 0.2px solid white;
+}
+
+.para {
+    margin-right: 40%;
+    color: white;
+    margin-left: 30px;
+}
+
+.teach-on-udemy {
+    height: 46px;
+    width: 150px;
+    border: 2px solid white;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1c1d1f;
+    height: 150px;
+}
+
+.footer2 .div1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 .div2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 .div3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer2 .div1 a:hover {
+    text-decoration:solid;
+    color: blue;
+}
+
+.footer2 .div2 a:hover {
+    text-decoration:solid;
+    color: blue;
+}
+
+.footer2 .div3 a:hover {
+    text-decoration:solid;
+    color: blue;
+}
+
